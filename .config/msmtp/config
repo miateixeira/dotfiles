@@ -1,0 +1,14 @@
+defaults
+auth	on
+tls	on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/mia/.config/msmtp/msmtp.log
+
+account gmail
+host smtp.gmail.com
+port 587
+from gteixe7@gmail.com
+user gteixe7@gmail.com
+passwordeval "pass mutt-wizard-gmail"
+
+

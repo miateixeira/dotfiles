@@ -1,0 +1,11 @@
+visualizer.spectrum.smoothing.mode=none #monstercat,sgs,none
+visualizer.sgs.smoothing.passes=2
+visualizer.sgs.smoothing.points=5
+
+visualizer.spectrum.falloff.mode=fill #fill,top,none
+visualizer.spectrum.falloff.weight=0.96
+
+visualizer.spectrum.bar.width=1
+visualizer.spectrum.bar.spacing=1
+
+audio.stereo.enabled=false

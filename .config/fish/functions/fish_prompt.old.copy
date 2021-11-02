@@ -1,0 +1,28 @@
+function fish_prompt
+      set -l last_status $status
+      set -g fish_prompt_pwd_dir_length 0
+
+      set_color brblack
+      echo -n '<'
+      set_color magenta
+      echo -n '>'
+      set_color brmagenta
+      echo -n '< '
+
+      set_color brred
+      echo -n (whoami)
+      set_color brgreen
+
+      echo -n ' : '
+
+      set_color yellow
+      echo -n '['
+      set_color blue
+      echo -n (prompt_pwd)
+      set_color yellow
+      echo -n ']'
+      
+      set_color brwhite
+      echo -n ' ↪ '
+      set_color normal
+end

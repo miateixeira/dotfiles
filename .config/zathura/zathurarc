@@ -1,0 +1,18 @@
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set selection-clipboard clipboard
+set recolor
+set recolor-lightcolor \#0e142e
+set recolor-keephue
+set default-bg \#0e142e
+set default-fg \#dcc9df
+
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map = zoom in
+map - zoom out

@@ -1,0 +1,23 @@
+# GIMP action-history
+
+(history-item "palette-editor-delete-color" 5)
+(history-item "palette-editor-new-color-fg" 0)
+(history-item "palette-editor-edit-color" 2)
+(history-item "file-open" 0)
+(history-item "file-quit" 1)
+(history-item "file-export-as" 2)
+(history-item "palette-editor-zoom-in" 0)
+(history-item "file-save-as" 1)
+(history-item "tools-free-select" 0)
+(history-item "palette-editor-zoom-all" 0)
+(history-item "gimp-palette-export-text" 0)
+(history-item "file-export" 1)
+(history-item "palette-editor-zoom-out" 0)
+(history-item "dialogs-palettes" 0)
+(history-item "palettes-edit" 0)
+(history-item "palettes-new" 0)
+(history-item "layers-new" 0)
+(history-item "file-save-a-copy" 0)
+(history-item "image-new" 1)
+
+# end of action-history

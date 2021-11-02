@@ -1,0 +1,53 @@
+alias pal='sxiv -t $HOME/.cache/wal/palette/*'
+
+# list
+alias ls='ls -hN --color=auto --group-directories-first'
+alias la='ls -a'
+alias ll='ls -la'
+alias l='ls'
+alias l.="ls -A | egrep '^\.'"
+
+# zathura always use --fork
+alias z='zathura --fork'
+
+# fix obvious typos
+alias cd..='cd ..'
+alias pdw="pwd"
+alias udpate='sudo pacman -Syyu'
+alias upate='sudo pacman -Syyu'
+
+# pacman or pm
+alias pacman='sudo pacman --color auto'
+alias update='sudo pacman -Syyu'
+
+# switch between bash and zsh
+alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
+alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+
+# youtube-dl
+alias yta="youtube-dl --extract-audio --audio-format mp3 "
+
+# Verbosity and interactivity
+alias \
+        cp="cp -iv" \
+        mv="mv -iv" \
+        rm="rm -vI" \
+        mkd="mkdir -pV"
+
+# abbrev git
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+
+# modified g++ for CS 31
+#alias g31="g++ -std=c++17 -Wall -Wextra -Wno-sign-compare -Werror=return-type -Wl, --rpath=/usr/lib64 -fsanitize=address -fsanitize=undefined -fsanitize=bounds -fno-omit-frame-pointer"
+alias g31="g++ -std=c++17 -Wall -Wextra -Wno-sign-compare -Werror=return-type -Wl,-rpath=/usr/lib64 -fsanitize=address -fsanitize=undefined -fsanitize=bounds -fno-omit-frame-pointer"
+alias g32="g++ -std=c++17 -Wall -Wextra -Wno-sign-compare -Werror=return-type -Wl,--rpath=/usr/lib64 -fsanitize=address -fsanitize=undefined -fsanitize=bounds -fno-omit-frame-pointer"
+
+# list directories before files, colorize output, use ASCII for indent structure
+alias tree="tree --dirsfirst -C -A $1"
+
+# open vimwiki index page
+alias vw="vim -c VimwikiIndex"

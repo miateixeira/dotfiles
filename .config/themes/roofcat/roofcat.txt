@@ -1,0 +1,26 @@
+#0e142e
+#dcc9df
+
+#f29140 orange
+#f9c55c yellow
+
+#027a7a dark teal
+#04adb4 light teal
+
+#ee7873 coral
+#b85e5d terracotta
+
+#f1a6c7 light lilac
+#db7fb0 dark lilac
+
+#e94894 light fuschia
+#d21f87 dark fuschia
+
+#4055a4 blue1
+#3d3693 blue2
+
+#14244b blue3
+#9a84bd purple1
+
+#7c60a6 purple2
+#633e97 purple3
