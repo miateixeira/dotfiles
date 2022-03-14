@@ -76,11 +76,10 @@ nnoremap <Leader>wt :VimwikiTable
 
 nnoremap <Leader>c :CalendarVR<CR>
 
-"autocmd BufWritePost $HOME/vimwiki/phd/articles/* !$HOME/scripts/compile_notes.sh <afile>
 noremap <silent> <Leader>z :!$HOME/scripts/compile_notes.sh<Space> %<CR><CR>:exe ":echo 'compiled to pdf using pandoc'"<CR>
 
 " reload .vimrc -- making all changes active
-map <silent> <Leader>v :source ~/.vimrc<CR>:PlugInstall<CR>:bdelete<CR>:exe ":echo 'vimrc reloaded'"<CR>
+map <silent> <Leader>v :source $MYVIMRC<CR>:PlugInstall<CR>:bdelete<CR>:exe ":echo 'vimrc reloaded'"<CR>
 
 " Leader C is the prefix for code related mappings
 noremap <silent> <Leader>cc :TComment<CR>
