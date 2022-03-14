@@ -73,10 +73,6 @@ col=3
 row=6
 col=4
 
-[/home/mia/tmp]
-row=1
-col=5
-
 [/home/mia/tax]
 row=0
 col=4
@@ -169,12 +165,12 @@ col=2
 row=4
 col=2
 
-[354 GB Encrypted]
-row=2
-col=0
-
 [2021-10-17-17-31-08-00]
 row=0
+col=0
+
+[354 GB Encrypted]
+row=2
 col=0
 
 [Trash]

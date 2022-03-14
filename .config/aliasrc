@@ -51,3 +51,7 @@ alias tree="tree --dirsfirst -C -A $1"
 
 # open vimwiki index page
 alias vw="vim -c VimwikiIndex"
+
+# open neovim
+alias v="nvim"
+# alias v="vim"

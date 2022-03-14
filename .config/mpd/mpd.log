@@ -3828,3 +3828,4 @@ Nov 01 17:36 : mad: input does not appear to be a mp3 bit stream
 Nov 01 17:36 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
 Nov 01 17:36 : ffmpeg/matroska,webm: Discarding ID3 tags because more suitable tags were found.
 Nov 01 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 01 22:33 : player: played "Agatha & Stereo Type/Split/デュー・プリズム.mp3"

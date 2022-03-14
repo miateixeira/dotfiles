@@ -14,8 +14,8 @@ row=6
 col=2
 
 [/home/mia/vimwiki_html]
-row=0
-col=5
+row=9
+col=0
 
 [/home/mia/2]
 row=8
@@ -42,8 +42,8 @@ row=5
 col=2
 
 [/home/mia/minecraft-launcher]
-row=7
-col=4
+row=9
+col=2
 
 [/home/mia/mutt-wizard]
 row=2
@@ -70,12 +70,8 @@ row=6
 col=3
 
 [/home/mia/screenshots]
-row=6
-col=4
-
-[/home/mia/tmp]
-row=1
-col=5
+row=9
+col=3
 
 [/home/mia/tax]
 row=0
@@ -110,8 +106,8 @@ row=8
 col=3
 
 [/home/mia/dotfiles]
-row=8
-col=4
+row=9
+col=1
 
 [/home/mia/fin]
 row=5

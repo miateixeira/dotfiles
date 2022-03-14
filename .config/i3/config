@@ -16,10 +16,10 @@ set $mod Mod4
 font pango:monospace 8
 
 # Disable titlebars so i3-gaps can work
-for_window [class=".*"] border pixel 2.5
+for_window [class=".*"] border pixel 1
 
 # Gaps
-gaps inner 35
+gaps inner 15
 # gaps outer 35
 
 # Only enable gaps on a workspace when there is at least one container
@@ -49,10 +49,10 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Launch polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Set default wallpaper and colorscheme
-exec_always --no-startup-id $HOME/scripts/default_bg.sh
+# exec_always --no-startup-id $HOME/scripts/default_bg.sh
 
 # Run picom for opacity/blur/etc
 exec_always --no-startup-id picom --config $HOME/.config/picom/picom.conf
@@ -76,6 +76,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty
 
+# open nvim start page
+bindsym $mod+v exec alacritty -e nvim
+
 # start brave browser
 bindsym $mod+i exec brave
 
@@ -83,23 +86,26 @@ bindsym $mod+i exec brave
 bindsym $mod+Shift+q kill
 
 # exec rofi -show run
-bindsym $mod+d exec rofi -show run -theme darthur
+# bindsym $mod+d exec rofi -show run -theme darthur
+bindsym $mod+d exec xfce4-appfinder
 
 # open khal for calendar/appointment management
-bindsym $mod+c exec alacritty -e ikhal --color
+# bindsym $mod+c exec alacritty -e ikhal --color
 
 # open neomutt
-bindsym $mod+e exec alacritty -e neomutt
+# bindsym $mod+e exec alacritty -e neomutt
 
 # open taskwarrior
-bindsym $mod+t exec alacritty -e vit
+# bindsym $mod+t exec alacritty -e vit
 
+# open spotify
+bindsym $mod+m exec spotify
 # open ncmpcpp
-bindsym $mod+m exec alacritty -e mpd & music
+# bindsym $mod+m exec alacritty -e mpd & music
 
 
 # Set random wallpaper and colorscheme
-bindsym $mod+Shift+w exec ./scripts/randwal.sh
+# bindsym $mod+Shift+w exec ./scripts/randwal.sh
 
 # change focus
 bindsym $mod+j focus down
@@ -129,7 +135,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+z split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+x split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle

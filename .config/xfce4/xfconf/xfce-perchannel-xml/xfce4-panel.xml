@@ -17,6 +17,7 @@
         <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="5"/>
+        <value type="int" value="24"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
@@ -26,34 +27,71 @@
         <value type="int" value="13"/>
         <value type="int" value="14"/>
       </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.054902"/>
+        <value type="double" value="0.078431"/>
+        <value type="double" value="0.180392"/>
+        <value type="double" value="1.000000"/>
+      </property>
     </property>
     <property name="panel-2" type="empty">
-      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
       <property name="position" type="string" value="p=10;x=0;y=0"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="48"/>
+      <property name="size" type="uint" value="31"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="15"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
         <value type="int" value="19"/>
+        <value type="int" value="7"/>
+        <value type="int" value="23"/>
+        <value type="int" value="26"/>
+        <value type="int" value="25"/>
         <value type="int" value="20"/>
         <value type="int" value="21"/>
         <value type="int" value="22"/>
       </property>
+      <property name="span-monitors" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.054902"/>
+        <value type="double" value="0.078431"/>
+        <value type="double" value="0.180392"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="icon-size" type="uint" value="0"/>
     </property>
+    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="button-icon" type="string" value="pop-cosmic-applications"/>
+    </property>
     <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="uint" value="1"/>
+      <property name="grouping" type="uint" value="0"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
     </property>
     <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+    </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -65,26 +103,47 @@
         <value type="string" value="pamac-tray"/>
         <value type="string" value="networkmanager applet"/>
       </property>
-    </property>
-    <property name="plugin-7" type="string" value="statusnotifier">
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="symbolic-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="bluetooth enabled"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="bluetooth disabled"/>
+        <value type="string" value="msm notifier"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="ProtonVPN Tray"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="MSM Notifier"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="ProtonVPN Tray"/>
+      </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1143;chromium.instance1344;chromium.instance1364;chromium.instance2177;chromium.instance4770"/>
+      <property name="mpris-players" type="string" value="chromium.instance1143;chromium.instance122836;chromium.instance125080;chromium.instance1344;chromium.instance1364;chromium.instance1477;chromium.instance1511;chromium.instance1518;chromium.instance1536;chromium.instance1539;chromium.instance15423;chromium.instance1548;chromium.instance1551;chromium.instance1557;chromium.instance1573;chromium.instance1582;chromium.instance1584;chromium.instance1601;chromium.instance1605;chromium.instance1606;chromium.instance1612;chromium.instance1614;chromium.instance1628;chromium.instance1652;chromium.instance1678;chromium.instance1679;chromium.instance1685;chromium.instance1687;chromium.instance1688;chromium.instance1735;chromium.instance175310;chromium.instance1778;chromium.instance1787;chromium.instance1796;chromium.instance1820;chromium.instance1860;chromium.instance1866;chromium.instance1983;chromium.instance2016;chromium.instance2025;chromium.instance21490;chromium.instance2177;chromium.instance2214;chromium.instance2225;chromium.instance2228;chromium.instance2274;chromium.instance2320;chromium.instance24018;chromium.instance2480;chromium.instance2684;chromium.instance27697;chromium.instance28628;chromium.instance45463;chromium.instance4770;chromium.instance5252;chromium.instance54899;chromium.instance80649;chromium.instance9461;firefox.instance1182;firefox.instance1244;firefox.instance1246;firefox.instance1313;firefox.instance1319;firefox.instance1335;firefox.instance1341;firefox.instance1346;firefox.instance1353;firefox.instance1356;firefox.instance1633;firefox.instance1936;spotify;vlc"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-12" type="string" value="clock"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="digital-format" type="string" value="%a %_d %b, %R"/>
+    </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-14" type="string" value="actions">
+      <property name="button-title" type="uint" value="1"/>
+    </property>
     <property name="plugin-15" type="string" value="showdesktop"/>
     <property name="plugin-16" type="string" value="separator"/>
     <property name="plugin-17" type="string" value="launcher">
@@ -107,9 +166,37 @@
         <value type="string" value="16002026644.desktop"/>
       </property>
     </property>
-    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-21" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+    </property>
     <property name="plugin-22" type="string" value="directorymenu">
       <property name="base-directory" type="string" value="/home/mia"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16364146381.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16364200422.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-26" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16364935592.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="xkb">
+      <property name="display-name" type="uint" value="1"/>
+      <property name="display-type" type="uint" value="2"/>
+      <property name="display-scale" type="uint" value="58"/>
+      <property name="group-policy" type="uint" value="0"/>
+    </property>
+    <property name="plugin-25" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16382481081.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
